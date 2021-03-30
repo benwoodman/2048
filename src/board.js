@@ -31,6 +31,15 @@ export class Score extends React.Component {
     }
 }
 
+export class GameAlert extends React.Component {
+    render() {
+        return (
+            <div id="game-alert">
+                <h1>{this.props.alert}</h1>
+            </div>
+        )
+    }
+}
 
 
 class Square extends React.Component {

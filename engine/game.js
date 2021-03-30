@@ -196,9 +196,9 @@ export default class Game {
             // }
             return;
         }
-        console.log(this.board.find(x => x === 0));
+        // console.log(this.board.find(x => x === 0));
         if (this.board.find(x => x === 0) === undefined) {
-            console.log('HELLO');
+            // console.log('HELLO');
             let keep_playing = false;
             for (let i = 0; i < this.board.length; i++) {
                 let check_arr;

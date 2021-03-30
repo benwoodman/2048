@@ -69,8 +69,35 @@ export var Score = function (_React$Component2) {
     return Score;
 }(React.Component);
 
-var Square = function (_React$Component3) {
-    _inherits(Square, _React$Component3);
+export var GameAlert = function (_React$Component3) {
+    _inherits(GameAlert, _React$Component3);
+
+    function GameAlert() {
+        _classCallCheck(this, GameAlert);
+
+        return _possibleConstructorReturn(this, (GameAlert.__proto__ || Object.getPrototypeOf(GameAlert)).apply(this, arguments));
+    }
+
+    _createClass(GameAlert, [{
+        key: 'render',
+        value: function render() {
+            return React.createElement(
+                'div',
+                { id: 'game-alert' },
+                React.createElement(
+                    'h1',
+                    null,
+                    this.props.alert
+                )
+            );
+        }
+    }]);
+
+    return GameAlert;
+}(React.Component);
+
+var Square = function (_React$Component4) {
+    _inherits(Square, _React$Component4);
 
     function Square() {
         _classCallCheck(this, Square);
