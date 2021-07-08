@@ -4,4 +4,4 @@ A version of the 2048 game written for my COMP 426 class. CSS styling works best
 
 ## Play the Game!
 
-Visit [benwoodman.github.io/2048/](benwoodman.github.io/2048/) to play the game now!
+Visit [https://benwoodman.github.io/2048/](https://benwoodman.github.io/2048/) to play the game now!
